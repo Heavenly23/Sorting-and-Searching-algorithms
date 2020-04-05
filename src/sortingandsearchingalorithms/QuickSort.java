@@ -212,32 +212,4 @@ public class QuickSort extends Source {
            }
     }
 
-   /* public void sceneForQuickSort() {
-               contentPane.getChildren().clear();
-               mainpane.setAlignment(Pos.TOP_CENTER);
-               
-               contentPane.setStyle("-fx-background-color:pink");
-               givenList_LabelSource.setStyle("-fx-background-color:green");
-               
-               HBox rowtitle = new HBox(5);
-               rowtitle.getChildren().add(givenList_LabelSource);
-               //rowtitle.getChildren().add(next);
-               contentPane.getChildren().add(rowtitle);
-               //contentPane.getChildren().add(next);
-               //next.setText("Split");
-               result.setStyle("-fx-background-color:green");
-               result.getChildren().add(sortedList_TextFieldSource);
-               result.setPadding(new Insets(15,15,15,15));
-               mainpane.getChildren().add(result);
-               mainpane.getChildren().add(next);
-
-               next.setOnMouseClicked(e -> {
-               quicksort(givenList,contentPane,26,15);
-               
-               next.setDisable(true);});
-               //contentPane.getChildren().add(sortedList_TextFieldSource);
-               
-    }
-
-   */
     }
