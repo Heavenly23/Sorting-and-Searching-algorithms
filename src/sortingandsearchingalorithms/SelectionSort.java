@@ -194,15 +194,6 @@ public class SelectionSort extends Source{
                 main.getChildren().remove(n);
                 important(entries.length-1,0);
                 
-               /* main.getChildren().remove(n);
-                (h.getChildren().get(index)).setStyle("-fx-background-color:black");
-             if( entries.length != index) {
-             
-              index_curent.setText("Current-index = "+ (index));
-              number_current.setText("Current-number = "+ entries[index]);
-              main.getChildren().remove(n);
-              (h.getChildren().get(index+1)).setStyle("-fx-background-color:green");
-             }*/
            });
     
         });}  
@@ -267,18 +258,6 @@ public class SelectionSort extends Source{
         });
         //3,21,14,5,6,13,5,7
     }
-  /*      for(int i = a.length-1;i >= 1;i--){
-           int maxIdx = i;
-           for(int j = 0;j <i ;j++){
-            if(a[j] >= a[maxIdx]);
-               maxIdx = j;
-           }
-           // swap(a[i],a[maxIdx]);
-           double temp = a[i];
-           a[i] = a[maxIdx];
-           a[maxIdx] = temp;
-           (h.getChildren().get(index)).setStyle("-fx-background-color:white");
-           }}}}*/
 
     public void important(int i,int j) {
         
@@ -287,35 +266,10 @@ public class SelectionSort extends Source{
         main.getChildren().add(n);
         
         selectionSortAlgorithm(i,j,n,0);
-        
-        
-       
-        
+  
     }
                
         
 }   
         
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    
-    
-    
-    
-    
-    
-    
-    
-
-   
-
