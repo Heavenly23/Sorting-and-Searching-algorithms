@@ -198,32 +198,11 @@ public class InsertionSort extends Source {
                 
                 num = entries[index];
                 startInsertionSort(entries,1,0);
-                //important(entries.length-1,0);
-           
-               /* main.getChildren().remove(n);
-                (h.getChildren().get(index)).setStyle("-fx-background-color:black");
-             if( entries.length != index) {
-             
-              index_curent.setText("Current-index = "+ (index));
-              number_current.setText("Current-number = "+ entries[index]);
-              main.getChildren().remove(n);
-              (h.getChildren().get(index+1)).setStyle("-fx-background-color:green");
-             }*/
            });
     
         });}  
     
     public void startInsertionSort(double[] entries,int i,int j) {
-       /* for(int i = 1; i < entries.length; i++){
-          double next = entries[i];
-          int j;
-           for( j = i; entries[j] > next && j >= 0 ; j--){
-              entries[j+1] = entries[j];
-           }   
-           entries[j+1] = next;
-        }
-        
-       */
         
         if((index) < entries.length){
            (h.getChildren().get(index)).setStyle("-fx-background-color:black");
@@ -260,22 +239,4 @@ public class InsertionSort extends Source {
         }
        });}}}
     
-   /* public void process(double[] entries,double next,int i,int j){
-        System.out.println("stop");
-         if(entries[i] > next && i >= 0 ){
-                box[i+1].setText(String.valueOf(entries[i]));
-                entries[i+1] = entries[i];}
-        else{  startInsertionSort(entries,j+1);
-                        }
-        no.setOnMouseClicked(e -> {
-          
-                process(entries,next,i-1,j);
-               
-        }
-            
-            );
-    
-    }
-}
-
-//13,2,5,4,8,6,9,12,3 */
+  
